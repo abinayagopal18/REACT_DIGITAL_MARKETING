@@ -97,7 +97,8 @@
 .log
 {
   text-align: center;
-  padding: center;
+  align-items: center;
+  padding: 60px;
   background: transparent;
 }
 form
@@ -105,14 +106,14 @@ form
   background-color: transparent;
   backdrop-filter: blur(5px);
   text-align: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
   max-width: 430px;
   margin: 90px;
-  /* background:transparent;  */
   padding: 60px;
   border-radius: 20px;
-  box-shadow: 0 0 10px rgba(239, 237, 237, 0.1);
+  box-shadow: 0 0 10px rgba(239, 237, 237, 0.2);
   float:right;
 }
 input {
@@ -138,10 +139,10 @@ h3{
   color:black;
 }
 button{
-  background-color: white;
+  background-color:black;
   border-radius:20px;
   width:4cm;
-  color: black;
+  color:white;
 }
 .link h6 a
 {
